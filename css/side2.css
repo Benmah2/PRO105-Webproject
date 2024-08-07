@@ -1,0 +1,577 @@
+/*Her i side2.css må vi legge til "gavene" under :active, og endre content=url(eksempel.png) til et alternativt bilde med tilsvarende 
+posisjonering og størrelse for en sømløs opplevelse. */
+@font-face {
+    font-family: "xmas";
+    src: url("/fonts/Christmas.DEMO.otf") format("opentype");
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+    }
+    
+
+    img {
+    display: inline-flexbox;
+    height: 15%;
+    width: 10%;
+    position: absolute;  
+    transition: 0.7s;
+}
+
+
+/* Klasser for fra ovenifra og ned*/
+    .top12 {
+        top: 12.3%;
+        z-index: -1; }
+    .top24 {
+        top: 24.6%;
+        z-index: -2; }
+    .top36 {
+        top: 36.9%;
+        z-index: -3; }
+    .top49 {
+        top: 49.2%;
+        z-index: -4; }
+    .top61 {
+        top: 61.5%;
+        z-index: -5; }
+    .top73 {
+        top: 73.8%;
+        z-index: -6; }
+    .top86 {
+        top: 86.1%;
+        z-index: -7; }
+/*------------------------------------------*/
+/* Klasser som definerer hvor langt fra venstre posisjonen er*/
+    .left10 {
+        left: 10%;}
+    .left20 {
+        left: 20%;}
+     .left30 {
+        left: 30%;}
+    .left40 {
+        left: 40%;}
+    .left50 {
+        left: 50%;}
+    .left60 {
+        left: 60%;}
+    .left70 {
+        left: 70%;}
+    .left80 {
+        left: 80%;}
+    .left90 {
+        left: 90%;}
+/*-----------------------------------------------------*/
+    
+/*Luketekster*/
+    h1 {
+        position: absolute;
+        font-family: 'xmas';
+        z-index: 1;
+    }
+    #julaften {
+        color: red;
+        font-weight:bold;
+    }
+    .zindex6 {z-index: 5;}
+    .left11 {
+        left: 11%;}
+    .left25 {
+        left: 25%;}
+    .left39 {
+        left: 39%;}
+    .left53{
+        left: 53%;}
+    .left67 {
+        left: 67%;}
+    .left81 {
+        left: 81%;}
+    .top4 {
+        top: 4%;}
+    .top29 {
+        top: 29%;}
+    .top53 {
+        top: 53%;}
+    .top75 {
+        top: 75%;}
+
+    /*Luketekst animasjon*/
+    #ltxt1 {
+        animation: popOut ease 0.2s; }    
+    
+    #ltxt2 {
+        animation: popOut ease 0.4s; }   
+
+    #ltxt3 {
+        animation: popOut ease 0.6s; }   
+
+    #ltxt4 {
+        animation: popOut ease 0.8s; }   
+
+    #ltxt5 {
+        animation: popOut ease 1s; }
+
+    #ltxt6 {
+        animation: popOut ease 1.2s; }   
+
+    #ltxt7 {
+        animation: popOut ease 1.5s; }   
+
+    #ltxt8 {
+        animation: popOut ease 1.7s; }   
+
+    #ltxt9 {
+        animation: popOut ease 1.9s; }   
+
+    #ltxt10 {
+        animation: popOut ease 2.1s; }   
+
+    #ltxt11 {
+        animation: popOut ease 2.3s; }   
+
+    #ltxt12 {
+        animation: popOut ease 2.5s; }   
+
+    #ltxt13 {
+        animation: popOut ease 2.8s }   
+
+    #ltxt14 {
+        animation: popOut ease 3s; }   
+
+    #ltxt15 {
+        animation: popOut ease 3.2s; }   
+
+    #ltxt16 {
+        animation: popOut ease 3.4s; }   
+
+    #ltxt17 {
+        animation: popOut ease 3.6s; }   
+    #ltxt18 {
+        animation: popOut ease 3.8s; }   
+    #ltxt19 {
+        animation: popOut ease 4.1s; }   
+    #ltxt20 {
+        animation: popOut ease 4.3s; }   
+    #ltxt21 {
+        animation: popOut ease 4.5s; }   
+    #ltxt22 {
+        animation: popOut ease 4.7s; }   
+    #ltxt23 {
+        animation: popOut ease 4.9s; }   
+    #ltxt24 {
+        animation: popOut ease 5.1s;
+        color: red; }   
+    
+    /*Julebrikker statisk*/
+    #julebrikke01 {
+        transform: scale(1.35);
+        top: 10%;
+        left: 7%;
+        z-index: 1;
+        animation: popOut ease 0.2s;
+        cursor: pointer;
+    }
+
+    #julebrikke02 {
+        transform:scale(1.35);
+        top: 10%;
+        left: 21%;
+        z-index: 2;
+        animation: popOut ease 0.4s;
+        cursor: pointer;
+    }
+    #julebrikke03 {
+        transform: scale(1.35);
+        top: 10%;
+        left: 35%;
+        z-index: 3;
+        animation: popOut ease 0.6s;
+        cursor: pointer;
+    }
+    #julebrikke04 {
+        transform: scale(1.35);
+        top: 10%;
+        left: 49%;
+        z-index: 3;
+        animation: popOut ease 0.8s;
+        cursor: pointer;
+    }
+
+    #julebrikke05 {
+        transform: scale(1.35);
+        top: 10%;
+        left: 63%;
+        z-index: 2;
+        animation: popOut ease 1s;
+ 
+ cursor: pointer;   }
+    #julebrikke06 {
+        transform: scale(1.35);
+        top: 10%;
+        left: 77%;
+        z-index: 1;
+        animation: popOut ease 1.2s;
+        cursor: pointer;
+    }
+    #julebrikke07 {
+        transform: scale(1.35);
+        top:35%;
+        left: 7%;
+        z-index: 1;
+        animation: popOut ease 1.5s;
+        cursor: pointer;
+    }
+    #julebrikke08 {
+        transform: scale(1.35);
+        top: 35%;
+        left:21%;
+        z-index: 2;
+        animation: popOut ease 1.7s;
+        cursor: pointer;
+    }
+
+    #julebrikke09 {
+        transform: scale(1.35);
+        top: 35%;
+        left: 35%;
+        z-index: 3;
+        animation: popOut ease 1.9s;
+        cursor: pointer;
+    }
+    #julebrikke10 {
+        transform: scale(1.35);
+        top: 35%;
+        left:49%;
+        z-index: 3;
+        animation: popOut ease 2.1s;
+        cursor: pointer;
+       
+    }
+    #julebrikke11 {
+        transform: scale(1.35);
+        top: 35%;
+        left: 63%;
+        z-index: 2;
+        animation: popOut ease 2.3s;
+        cursor: pointer;
+    }
+    #julebrikke12 {
+        transform: scale(1.35);
+        top: 35%;
+        left: 77%;
+        z-index: 1;
+        animation: popOut ease 2.5s;
+        cursor: pointer;
+    }
+
+    #julebrikke13 {
+        transform: scale(1.35);
+        top: 58%;
+        left: 7%;
+        z-index: 1;
+        animation: popOut ease 2.8s;
+        cursor: pointer;
+    }
+    #julebrikke14 {
+        transform: scale(1.35);
+        top: 58%;
+        left: 21%;
+        z-index: 2;
+        animation: popOut ease 3s;
+ 
+ cursor: pointer;   }
+    #julebrikke15 {
+        transform: scale(1.35);
+        top: 58%;
+        left: 35%;
+        z-index: 3;
+        animation: popOut ease 3.2s;
+        cursor: pointer;
+    }
+    #julebrikke16 {
+        transform: scale(1.35);
+        top: 58%;
+        left: 49%;
+        z-index: 3;
+        animation: popOut ease 3.4s;
+        cursor: pointer;
+    }
+
+    #julebrikke17 {
+        transform: scale(1.35);
+        top: 58%;
+        left: 63%;
+        z-index: 2;
+        animation: popOut ease 3.6s;
+        cursor: pointer;
+    }
+    #julebrikke18 {
+        transform: scale(1.35);
+        top: 58%;
+        left: 77%;
+        z-index: 1;
+        animation: popOut ease 3.8s;
+        cursor: pointer;
+    }
+    #julebrikke19 {
+        transform: scale(1.35);
+        top: 80%;
+        left: 7%;
+        z-index: 1;
+        animation: popOut ease 4.1s;
+        cursor: pointer;
+    }
+    #julebrikke20 {
+        transform: scale(1.35);
+        top: 80%;
+        left:21%;
+        z-index: 2;
+        animation: popOut ease 4.3s;
+        cursor: pointer;
+    }
+
+    #julebrikke21 {
+        transform: scale(1.35);
+        top: 80%;
+        left: 35%;
+        z-index: 3;
+        animation: popOut ease 4.5s;
+        cursor: pointer;
+    }
+    #julebrikke22 {
+        transform: scale(1.35);
+        top: 80%;
+        left: 49%;
+        z-index: 3;
+        animation: popOut ease 4.7s;
+        cursor: pointer;
+    }
+    #julebrikke23 {
+        transform: scale(1.35);
+        top: 80%;
+        left: 63%;
+        z-index: 2;
+        animation: popOut ease 4.9s;
+        cursor: pointer;
+    }
+    #julebrikke24 {
+        transform: scale(1.35);
+        top: 80%;
+        left: 77%;
+        z-index: 1;
+        animation: popOut ease 5.1s;
+        cursor: pointer;
+    }
+
+
+
+    /*Julebrikker actives*/
+    #julebrikke01:active {
+        transform: scale(4);
+        content: url("../img/calendar/dag1.png");
+        top: 45%;
+        left: 45%;
+        z-index: 99;
+        
+    }
+    #julebrikke02:active {
+        transform: scale(4);
+        content: url("../img/calendar/dag2.png");
+        top: 45%;
+        left: 45%;
+        z-index: 99;
+        
+    }
+    #julebrikke03:active {
+        transform: scale(4);
+        content: url("../img/calendar/dag3.png");
+        top: 45%;
+        left: 45%;
+        z-index: 99;
+        
+    }
+    #julebrikke04:active {
+        transform: scale(4);
+        content: url("../img/calendar/dag4.png");
+        top: 45%;
+        left: 45%;
+        z-index: 99;
+        
+    }
+
+    #julebrikke05:active {
+        transform: scale(4);
+        content: url("../img/calendar/dag5.png");
+        top: 45%;
+        left: 45%;
+        z-index: 99;
+        
+    }
+    #julebrikke06:active {
+        transform: scale(4);
+        content: url("../img/calendar/dag6.png");
+        top: 45%;
+        left: 45%;
+        z-index: 99;
+        
+    }
+    #julebrikke07:active {
+        transform: scale(4);
+        content: url("../img/calendar/dag7.png");
+        top: 45%;
+        left: 45%;
+        z-index: 99;
+        
+    }
+    #julebrikke08:active {
+        transform: scale(4);
+        content: url("../img/calendar/dag8.png");
+        top: 45%;
+        left: 45%;
+        z-index: 99;
+        
+    }
+
+    #julebrikke09:active {
+        transform: scale(4);
+        content: url("../img/calendar/dag9.png");
+        top: 45%;
+        left: 45%;
+        z-index: 99;
+        
+    }
+    #julebrikke10:active {
+        transform: scale(4);
+        content: url("../img/calendar/dag10.png");
+        top: 45%;
+        left: 45%;
+        z-index: 99;
+        
+    }
+    #julebrikke11:active {
+        transform: scale(4);
+        content: url("../img/calendar/dag11.png");
+        top: 45%;
+        left: 45%;
+        z-index: 99;
+        
+    }
+    #julebrikke12:active {
+        transform: scale(4);
+        content: url("../img/calendar/dag12.png");
+        top: 45%;
+        left: 45%;
+        z-index: 99;
+        
+    }
+
+    #julebrikke13:active {
+        transform: scale(4);
+        content: url("../img/calendar/dag13.png");
+        top: 45%;
+        left: 45%;
+        z-index: 99;
+        
+    }
+    #julebrikke14:active {
+        transform: scale(4);
+        content: url("../img/calendar/dag14.png");
+        top: 45%;
+        left: 45%;
+        z-index: 99;
+        
+    }
+    #julebrikke15:active {
+        transform: scale(4);
+        content: url("../img/calendar/dag15.png");
+        top: 45%;
+        left: 45%;
+        z-index: 99;
+        
+    }
+    #julebrikke16:active {
+        transform: scale(4);
+        content: url("../img/calendar/dag16.png");
+        top: 45%;
+        left: 45%;
+        z-index: 99;
+        
+    }
+
+    #julebrikke17:active {
+        transform: scale(4);
+        content: url("../img/calendar/dag17.png");
+        top: 45%;
+        left: 45%;
+        z-index: 99;
+        
+    }
+    #julebrikke18:active {
+        transform: scale(4);
+        content: url("../img/calendar/dag18.png");
+        top: 45%;
+        left: 45%;
+        z-index: 99;
+        
+    }
+    #julebrikke19:active {
+        transform: scale(4);
+        content: url("../img/calendar/dag19.png");
+        top: 45%;
+        left: 45%;
+        z-index: 99;
+        
+    }
+    #julebrikke20:active {
+        transform: scale(4);
+        content: url("../img/calendar/dag20.png");
+        top: 45%;
+        left: 45%;
+        z-index: 99;
+        
+    }
+
+    #julebrikke21:active {
+        transform: scale(4);
+        content: url("../img/calendar/dag21.png");
+        top: 45%;
+        left: 45%;
+        z-index: 99;
+        
+    }
+    #julebrikke22:active {
+        transform: scale(4);
+        content: url("../img/calendar/dag22.png");
+        top: 45%;
+        left: 45%;
+        z-index: 99;
+        
+    }
+    #julebrikke23:active {
+        transform: scale(4);
+        content: url("../img/calendar/dag23.png");
+        top: 45%;
+        left: 45%;
+        z-index: 99;
+        
+    }
+    #julebrikke24:active {
+        transform: scale(4);
+        content: url("../img/calendar/dag24.png");
+        top: 45%;
+        left: 45%;
+        z-index: 99;
+        
+    }
+
+    @keyframes popOut {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 0;
+        }
+    }
+  
